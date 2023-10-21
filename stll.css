@@ -1,0 +1,225 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(42, 42, 40);
+}
+
+h1 {
+    color: white;
+}
+
+#num1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3px;
+    border-radius: 6px;
+    width: 415px;
+    height: 30px;
+    padding-left: 7px;
+}
+
+#num2 {
+    margin-bottom: 8px;
+    border-radius: 6px;
+    width: 415px;
+    height: 30px;
+    padding-left: 7px;
+}
+
+.pribavit {
+    width: 210px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.vichislit {
+    width: 210px;
+    height: 34px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+
+.ymn {
+    width: 210px;
+    height: 34px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.razd {
+    width: 210px;
+    height: 34px;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 20px;
+}
+
+.pribavit:active {
+    background-color: yellowgreen;
+    color: aqua;
+}
+
+.vichislit:active {
+    background-color: yellowgreen;
+    color: aqua;
+}
+
+.ymn:active {
+    background-color: indigo;
+}
+
+.razd:active {
+    background-color: chocolate;
+}
+
+.calculate {
+    margin-top: 13px;
+    position: relative;
+    left: 8px;
+    width: 410px;
+    border-radius: 7px;
+    border: solid rgb(61, 61, 227);
+    background-color: rgb(42, 42, 40);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.calculate:active {
+    background-color: rgb(219, 186, 186);
+}
+
+.resultive {
+    background-color: bisque;
+    border-radius: 7px;
+    height: 130px;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#result {
+    border: 0;
+    margin-left: 90px;
+    margin-right: 90px;
+    height: 30px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+@media (max-width: 415px) {
+    h1 {
+        margin-left: 19px;
+    }
+    #num1 {
+        width: 390px;
+        margin-left: 12px;
+
+    }
+    #num2 {
+        width: 390px;
+        margin-left: 12px;
+    }
+    .pribavit {
+        width: 200px;
+        margin-left: 10px;
+    }
+    .vichislit {
+        width: 200px;
+        margin-left: 4px;
+    }
+    .ymn {
+        width: 200px;
+        margin-left: 10px;
+    }
+    .razd {
+        width: 200px;
+        margin-left: 4px;
+    }
+    .calculate {
+        margin-right: 19px;
+    } 
+    .resultive {
+        width: 300px;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 376px) {
+    #num1 {
+        width: 300px;
+        margin-left: 30px;
+    }
+    #num2 {
+        width: 300px;
+        margin-left: 30px;
+    }
+    .pribavit {
+        margin-left: 50px;
+        width: 90px;
+    }
+    .vichislit {
+        margin-left: 90px;
+        width: 90px;
+    }
+    .ymn {
+        margin-left: 50px;
+        width: 90px;
+    }
+    .razd {
+        margin-left: 90px;
+        width: 90px;
+    }
+    .calculate {
+        width: 130px;
+        margin-left: 110px;
+    } 
+    .resultive {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media (max-width: 266px) {
+    h1 {
+        position: relative;
+        left: 90px;
+    }
+    #num1 {
+        width: 295px;
+        margin-left: 46px;
+    }
+    #num2 {
+        width: 295px;
+        margin-left: 46px;
+    }
+}
+
+@media (max-width: 281px) {
+    h1 {
+        position: relative;
+        left: 40px;
+    }
+    #num1 {
+        width: 265px;
+        margin-left: 40px;
+    }
+    #num2 {
+        width: 265px;
+        margin-left: 40px;
+    }
+}
